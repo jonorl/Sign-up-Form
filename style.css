@@ -13,7 +13,7 @@ body {
     border: 2px solid black ;
     width: 40%;
     height: 100%;
-    padding-top:0.5%
+
 }
 .right {
     display: flex;
@@ -29,7 +29,7 @@ body {
     border: 2px solid black ;
     height: calc(100%/3);
     align-content: end;
-    text-align: center;
+    text-align: left;
 
 }
 
@@ -73,11 +73,31 @@ body {
     border: 2px solid black ;
     height: calc(100%/3);
     align-content: top;
-    text-align: center;
+    text-align: center left;
+    padding: 20px;
+}
+
+.imageContainer {
 }
 
 img {
-    max-width:100%;
-    height: 100.33%;
-    border: 2px solid black ;
+
+    width:100%;
+    object-fit: fill;
+    /* max-width:100%; */
+    /* padding-top: 5vh; */
+    /* border: 2px solid black ; */
+    /* object-fit: fill; */
+}
+
+.odin-logo {
+    position: relative;
+    top: -100vh;
+    left: 40vh;
+}
+
+.photoCredit {
+    position: relative;
+    top: -10vh;
+    left: 15vh;
 }
