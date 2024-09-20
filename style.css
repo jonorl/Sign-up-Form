@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    border: 2px solid black ;
+    justify-content: center;
+}
+
+.container {
+    flex-direction: column;
+    border: 2px solid black ;
+    justify-content: center;
+}
+.left {
+    border: 2px solid black ;
+    width: 40%;
+    height: 100%;
+    padding-top:0.5%
+}
+.right {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    border: 2px solid black ;
+    width: 60%;
+    align-content: center
+    
+}
+
+.top {
+    border: 2px solid black ;
+    height: calc(100%/3);
+    align-content: end;
+    text-align: center;
+
+}
+
+.centre {
+    border: 2px solid black ;
+    height: calc(100%/3);
+    align-content: center;
+    text-align: center;
+}
+
+.outer-container{
+    border: 2px solid black ;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+}
+
+.sub-left, .sub-right {
+    border: 2px solid black ;
+    display: flex;
+    flex-direction: column; 
+    width: 50%;
+    text-align: left;
+
+
+}
+
+.input1, .input3, .input5 {
+    border: 2px solid black ;
+    display: flex;
+    flex-direction: column;
+}
+
+.input2, .input4, .input6 {
+    border: 2px solid black ;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom {
+    border: 2px solid black ;
+    height: calc(100%/3);
+    align-content: top;
+    text-align: center;
+}
+
+img {
+    max-width:100%;
+    height: 100.33%;
+    border: 2px solid black ;
+}
