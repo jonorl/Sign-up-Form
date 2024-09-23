@@ -1,12 +1,20 @@
 @font-face {
     font-family: 'Norse-Bold';
     src: url('Norse-Bold.otf');
-  }
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url('Roboto-Regular.ttf');
+}
 
 body {
     display: flex;
     border: 2px solid black ;
     justify-content: center;
+    font-family: 'roboto';
+    font-weight: bold;
+    font-size: large;
 }
 
 .container {
@@ -19,6 +27,7 @@ body {
     width: 40%;
     height: 100%;
 
+
 }
 .right {
     display: flex;
@@ -26,8 +35,8 @@ body {
     flex-direction: column;
     border: 2px solid black ;
     width: 60%;
-    align-content: center
-    
+    align-content: center;
+    background-color: lightgray;
 }
 
 .top {
@@ -35,7 +44,18 @@ body {
     height: calc(100%/3);
     align-content: end;
     text-align: left;
+    padding-left: 4vh;
+    padding-right: 20vh;
+    padding-bottom: 6vh;
+}
 
+fieldset {
+    border: 0;
+}
+
+legend {
+    align-content: left;
+    font-size: larger;
 }
 
 .centre {
@@ -43,6 +63,9 @@ body {
     height: calc(100%/3);
     align-content: center;
     text-align: center;
+    background-color: white;
+    padding-left: 4vh;
+    padding-right: 20vh;
 }
 
 .outer-container{
@@ -58,8 +81,6 @@ body {
     flex-direction: column; 
     width: 50%;
     text-align: left;
-
-
 }
 
 .input1, .input3, .input5 {
@@ -79,7 +100,26 @@ body {
     height: calc(100%/3);
     align-content: top;
     text-align: center left;
-    padding: 20px;
+    padding-left: 4vh;
+    padding-right: 20vh;
+    padding-top: 3vh;
+}
+
+button{
+    margin-bottom: 3vh;
+    background-color: #596D48;
+    color: white;
+    font-size: 17px;
+    border-radius: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+a:link {
+    color:#596D48;
+    text-decoration: none;
 }
 
 .imageContainer {
@@ -102,12 +142,11 @@ body {
     padding: 0;
 }
 
-.odin-container{
+.odin-container {
     position: absolute;
     width: 40vw;
     height: 8vw;
-    background: black;
-    opacity: 0.4;
+    background: rgba(0, 0, 0, 0.4); /* semi-transparent background */
     display: flex;
     flex: 1;
     align-items: center;
@@ -121,13 +160,13 @@ body {
     width: auto
 }
 
-.odin-logo {
+.imageContainer > .odin-container > .odin-logo {
     position: relative;
-    color: white;
     text-align: center;
+    color: white;
     opacity: 1;
     font-size: 6vw;
-    font-family: Norse-Bold, 'Times New Roman', Times, serif;
+    font-family: 'Norse-Bold' !important;
 }
 
 .photoCredit {
@@ -136,4 +175,10 @@ body {
     display: flex;
     color: white;
     justify-content: center;
+    font-size: smaller;
+    text-shadow: 
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
 }
