@@ -143,9 +143,26 @@ input {
     width: 27.5vh;
     height: 3vh;
     border-color: rgb(225,225,225);
+    outline: none;
     gap: 0;
     border-style: solid;
     border-radius: 3px;
+}
+
+
+input:focus {
+    border-color: rgb(225,225,225);
+    outline: none;
+}
+
+input:focus:invalid {
+    border-color: red;
+    outline: none;
+}
+
+input:focus:valid {
+    border-color: green;
+    outline: none;
 }
 
 label {
