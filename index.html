@@ -20,56 +20,59 @@
         </div>
         <div class ="right">
             <div class="top">
-                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <i>now</i> to get started</p>
+                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br>Sign up <i>now</i> to get started.</p>
                 <p>You <i>know</i> you want to.</p>
             </div>
             <div class="centre">
                 <fieldset>
                     <legend align="left">Let's do this!</legend>
+                    <form action="#" method="get">
+                        <div class="outer-container">
 
-                    <div class="outer-container">
-
-                        <div class="sub-left">
-                    
-                            <div class="input1">
-                                <label for="firstName">First Name</label>
-                                <input type="text" class="firstName">                      
-                            </div>
-
-                            <div class="input3">
-                                <label for="email">Email</label>
-                                <input type="email" class="email">                      
-                            </div>
-
-                            <div class="input5">
-                                <label for="password">Password</label>
-                                <input type="password" class="password">                      
-                            </div>
-                        </div>
-
-                        <div class="sub-right">
-
-                            <div class="input2">
-                                <label for="lastName">Last Name</label>
-                                <input type="text" class="lastName">                      
-                            </div>
+                            <div class="sub-left">
                         
-                            <div class="input4">
-                                <label for="phoneNumber">Phone Number</label>
-                                <input type="text" class="phoneNumber">                      
+                                <div class="input1">
+                                    <label for="firstName">First Name</label>
+                                    <input type="text" class="firstName" required>                      
+                                </div>
+
+                                <div class="input3">
+                                    <label for="email">Email</label>
+                                    <input type="email" class="email" required>                      
+                                </div>
+
+                                <div class="input5">
+                                    <label for="password">Password</label>
+                                    <input type="password" class="password" minlength="8" required>                      
+                                </div>
                             </div>
 
-                            <div class="input6">
-                                <label for="confirmPassword">Confirm Password</label>
-                                <input type="password" class="confirmPassword">                      
+                            <div class="sub-right">
+
+                                <div class="input2">
+                                    <label for="lastName">Last Name</label>
+                                    <input type="text" class="lastName" required>                      
+                                </div>
+                            
+                                <div class="input4">
+                                    <label for="phoneNumber">Phone Number</label>
+                                    <input type="text" class="phoneNumber">                      
+                                </div>
+
+                                <div class="input6">
+                                    <label for="confirmPassword">Confirm Password</label>
+                                    <input type="password" class="confirmPassword" minlength="8" required>                      
+                                </div>
                             </div>
                         </div>
-                    </div>
+
                   </fieldset>
                   
             </div>
             <div class="bottom">
-                <button>Create account</button>
+                <button>Create Account</button>
+
+            </form>
                 <div class="logIn"> Already have an account? <a href="#"> Log in</a></div>
             </div>
         </div>
