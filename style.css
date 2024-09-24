@@ -16,7 +16,6 @@
 
 body {
     display: flex;
-    /* border: 2px solid black ; */
     justify-content: center;
     font-family: 'roboto';
     font-weight: bold;
@@ -29,7 +28,6 @@ body {
     justify-content: center;
 }
 .left {
-    /* border: 2px solid black ; */
     width: 40%;
     height: 100%;
 
@@ -39,7 +37,6 @@ body {
     display: flex;
     flex: 1;
     flex-direction: column;
-    /* border: 2px solid black ; */
     width: 60%;
     align-content: center;
     background-color: rgb(247,247,247);
@@ -47,7 +44,6 @@ body {
 }
 
 .top {
-    /* border: 2px solid black ; */
     height: calc(100%/3);
     align-content: end;
     text-align: left;
@@ -67,7 +63,6 @@ legend {
 }
 
 .centre {
-    /* border: 2px solid black ; */
     height: calc(100%/3);
     align-content: center;
     text-align: center;
@@ -77,14 +72,11 @@ legend {
 }
 
 .outer-container{
-    /* border: 2px solid black ; */
     display: flex;
     flex-direction: row; 
-    /* justify-content: left; */
 }
 
 .sub-left, .sub-right {
-    /* border: 2px solid black ; */
     display: flex;
     flex-direction: column; 
     width: 37.5%;
@@ -97,19 +89,16 @@ legend {
 }
 
 .input1, .input3, .input5 {
-    /* border: 2px solid black ; */
     display: flex;
     flex-direction: column;
 }
 
 .input2, .input4, .input6 {
-    /* border: 2px solid black ; */
     display: flex;
     flex-direction: column;
 }
 
 .bottom {
-    /* border: 2px solid black ; */
     height: calc(100%/3);
     align-content: top;
     text-align: center left;
